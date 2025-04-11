@@ -113,62 +113,227 @@
         answerCorrect: false,
         answerFeedback: '',
         questions: [
-          {
-            question: "\"床前明月光\"的下一句是什么？",
-            options: [
-              { text: "A. 疑是地上霜", answer: "A" },
-              { text: "B. 举头望明月", answer: "B" },
-              { text: "C. 低头思故乡", answer: "C" },
-              { text: "D. 明月几时有", answer: "D" }
-            ],
-            correctAnswer: "A",
-            explanation: "正确答案是A，出自李白《静夜思》"
-          },
-          {
-            question: "\"春眠不觉晓\"的下一句是什么？",
-            options: [
-              { text: "A. 夜来风雨声", answer: "A" },
-              { text: "B. 花落知多少", answer: "B" },
-              { text: "C. 处处闻啼鸟", answer: "C" },
-              { text: "D. 白日依山尽", answer: "D" }
-            ],
-            correctAnswer: "C",
-            explanation: "正确答案是C，出自孟浩然《春晓》"
-          },
-          {
-            question: "李白《将进酒》中\"天生我材必有用\"的下一句是什么？",
-            options: [
-              { text: "A. 千金散尽还复来", answer: "A" },
-              { text: "B. 会须一饮三百杯", answer: "B" },
-              { text: "C. 与尔同销万古愁", answer: "C" },
-              { text: "D. 但愿长醉不复醒", answer: "D" }
-            ],
-            correctAnswer: "A",
-            explanation: "正确答案是A，出自李白《将进酒》"
-          },
-          {
-            question: "杜甫《春望》中\"国破山河在\"的下一句是什么？",
-            options: [
-              { text: "A. 城春草木深", answer: "A" },
-              { text: "B. 感时花溅泪", answer: "B" },
-              { text: "C. 烽火连三月", answer: "C" },
-              { text: "D. 家书抵万金", answer: "D" }
-            ],
-            correctAnswer: "A",
-            explanation: "正确答案是A，出自杜甫《春望》"
-          },
-          {
-            question: "苏轼《水调歌头》中\"明月几时有\"的下一句是什么？",
-            options: [
-              { text: "A. 把酒问青天", answer: "A" },
-              { text: "B. 不知天上宫阙", answer: "B" },
-              { text: "C. 今夕是何年", answer: "C" },
-              { text: "D. 起舞弄清影", answer: "D" }
-            ],
-            correctAnswer: "A",
-            explanation: "正确答案是A，出自苏轼《水调歌头》"
-          }
-        ],
+  {
+    question: "中国剪纸主要使用哪种工具进行创作？",
+    options: [
+      { text: "A. 毛笔", answer: "A" },
+      { text: "B. 剪刀", answer: "B" },
+      { text: "C. 锯子", answer: "C" },
+      { text: "D. 斧头", answer: "D" }
+    ],
+    correctAnswer: "B",
+    explanation: "正确答案是B，剪纸是用剪刀或刻刀在纸上剪刻图案的传统艺术。"
+  },
+  {
+    question: "下列哪项是中国的非物质文化遗产？",
+    options: [
+      { text: "A. 功夫熊猫", answer: "A" },
+      { text: "B. 皮影戏", answer: "B" },
+      { text: "C. 中国象棋", answer: "C" },
+      { text: "D. 航空制造", answer: "D" }
+    ],
+    correctAnswer: "B",
+    explanation: "正确答案是B，皮影戏是一种用灯光和影人表演的传统民间艺术。"
+  },
+  {
+    question: "风筝最早起源于哪个国家？",
+    options: [
+      { text: "A. 日本", answer: "A" },
+      { text: "B. 印度", answer: "B" },
+      { text: "C. 中国", answer: "C" },
+      { text: "D. 韩国", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，风筝起源于中国，已有两千多年的历史。"
+  },
+  {
+    question: "端午节吃粽子的习俗与哪位历史人物有关？",
+    options: [
+      { text: "A. 屈原", answer: "A" },
+      { text: "B. 李白", answer: "B" },
+      { text: "C. 孔子", answer: "C" },
+      { text: "D. 岳飞", answer: "D" }
+    ],
+    correctAnswer: "A",
+    explanation: "正确答案是A，吃粽子是为了纪念伟大的爱国诗人屈原。"
+  },
+  {
+    question: "京剧脸谱中红色通常代表什么性格的人物？",
+    options: [
+      { text: "A. 忠诚正义", answer: "A" },
+      { text: "B. 狡猾奸诈", answer: "B" },
+      { text: "C. 胆小懦弱", answer: "C" },
+      { text: "D. 心狠手辣", answer: "D" }
+    ],
+    correctAnswer: "A",
+    explanation: "正确答案是A，红色脸谱代表忠勇、正义的人物，如关羽。"
+  },
+  {
+    question: "中国传统医学中使用的“针灸”属于哪类非遗？",
+    options: [
+      { text: "A. 表演艺术", answer: "A" },
+      { text: "B. 民间文学", answer: "B" },
+      { text: "C. 传统技艺", answer: "C" },
+      { text: "D. 传统医药", answer: "D" }
+    ],
+    correctAnswer: "D",
+    explanation: "正确答案是D，针灸属于传统医药类非物质文化遗产。"
+  },
+  {
+    question: "哪项非遗是通过打击乐器和锣鼓进行表演的？",
+    options: [
+      { text: "A. 舞龙", answer: "A" },
+      { text: "B. 变脸", answer: "B" },
+      { text: "C. 锣鼓经", answer: "C" },
+      { text: "D. 剪纸", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，锣鼓经是用锣鼓等打击乐器演奏的传统技艺。"
+  },
+  {
+    question: "以下哪种传统技艺常用于建筑木结构的连接？",
+    options: [
+      { text: "A. 榫卯", answer: "A" },
+      { text: "B. 竹编", answer: "B" },
+      { text: "C. 陶艺", answer: "C" },
+      { text: "D. 裁缝", answer: "D" }
+    ],
+    correctAnswer: "A",
+    explanation: "正确答案是A，榫卯是中国传统木工中一种不用钉子的结构连接方式。"
+  },
+  {
+    question: "藏族的传统节日“雪顿节”主要活动是什么？",
+    options: [
+      { text: "A. 看电影", answer: "A" },
+      { text: "B. 喝酒", answer: "B" },
+      { text: "C. 吃酸奶和看藏戏", answer: "C" },
+      { text: "D. 赏灯", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，雪顿节是藏族传统节日，有吃酸奶和看藏戏的习俗。"
+  },
+  {
+    question: "中国的茶文化被列入非遗的是哪一项？",
+    options: [
+      { text: "A. 武术茶艺", answer: "A" },
+      { text: "B. 茶百戏", answer: "B" },
+      { text: "C. 中华茶艺", answer: "C" },
+      { text: "D. 中国传统制茶技艺及其相关习俗", answer: "D" }
+    ],
+    correctAnswer: "D",
+    explanation: "正确答案是D，2022年“传统制茶技艺及其相关习俗”被列入非遗名录。"
+  },
+  {
+    question: "“变脸”是哪个剧种的绝活？",
+    options: [
+      { text: "A. 京剧", answer: "A" },
+      { text: "B. 昆曲", answer: "B" },
+      { text: "C. 川剧", answer: "C" },
+      { text: "D. 粤剧", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，变脸是川剧中极具特色的表演技艺。"
+  },
+  {
+    question: "哪一项是中国传统节日中的非遗项目？",
+    options: [
+      { text: "A. 中秋吃月饼", answer: "A" },
+      { text: "B. 清明扫墓", answer: "B" },
+      { text: "C. 端午赛龙舟", answer: "C" },
+      { text: "D. 春节放假", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，端午节赛龙舟是国家级非物质文化遗产。"
+  },
+  {
+    question: "“侗族大歌”是一种什么形式的非遗？",
+    options: [
+      { text: "A. 乐器演奏", answer: "A" },
+      { text: "B. 舞蹈", answer: "B" },
+      { text: "C. 合唱", answer: "C" },
+      { text: "D. 说唱", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，侗族大歌是一种多声部无指挥的合唱艺术。"
+  },
+  {
+    question: "苗族的刺绣技艺属于哪类非遗？",
+    options: [
+      { text: "A. 表演艺术", answer: "A" },
+      { text: "B. 传统技艺", answer: "B" },
+      { text: "C. 社会习俗", answer: "C" },
+      { text: "D. 民间文学", answer: "D" }
+    ],
+    correctAnswer: "B",
+    explanation: "正确答案是B，苗绣是一种精细的传统手工艺。"
+  },
+  {
+    question: "木版年画中，最著名的“年画之乡”是？",
+    options: [
+      { text: "A. 苏州", answer: "A" },
+      { text: "B. 天津", answer: "B" },
+      { text: "C. 潍坊", answer: "C" },
+      { text: "D. 桃花坞", answer: "D" }
+    ],
+    correctAnswer: "D",
+    explanation: "正确答案是D，桃花坞木版年画是国家级非遗项目。"
+  },
+  {
+    question: "黎族传统的“藤编”技艺使用的主要材料是？",
+    options: [
+      { text: "A. 木头", answer: "A" },
+      { text: "B. 藤条", answer: "B" },
+      { text: "C. 塑料", answer: "C" },
+      { text: "D. 布料", answer: "D" }
+    ],
+    correctAnswer: "B",
+    explanation: "正确答案是B，黎族藤编以藤条为主要材料，体现生态智慧。"
+  },
+  {
+    question: "“龙泉青瓷”以什么著称？",
+    options: [
+      { text: "A. 黑釉", answer: "A" },
+      { text: "B. 蓝白花纹", answer: "B" },
+      { text: "C. 温润如玉", answer: "C" },
+      { text: "D. 金色外观", answer: "D" }
+    ],
+    correctAnswer: "C",
+    explanation: "正确答案是C，龙泉青瓷以釉色温润如玉而著称。"
+  },
+  {
+    question: "以下哪一项不属于非物质文化遗产？",
+    options: [
+      { text: "A. 剪纸", answer: "A" },
+      { text: "B. 茶艺", answer: "B" },
+      { text: "C. 皮影戏", answer: "C" },
+      { text: "D. 万里长城", answer: "D" }
+    ],
+    correctAnswer: "D",
+    explanation: "正确答案是D，万里长城属于世界文化遗产，不是非物质文化遗产。"
+  },
+  {
+    question: "“南音”是中国现存最古老的什么类型音乐？",
+    options: [
+      { text: "A. 宫廷音乐", answer: "A" },
+      { text: "B. 民间说唱", answer: "B" },
+      { text: "C. 宗教音乐", answer: "C" },
+      { text: "D. 汉族古乐", answer: "D" }
+    ],
+    correctAnswer: "D",
+    explanation: "正确答案是D，南音被誉为汉族古乐的“活化石”。"
+  },
+  {
+    question: "哪种传统节日活动象征驱邪纳福？",
+    options: [
+      { text: "A. 剪纸", answer: "A" },
+      { text: "B. 舞狮", answer: "B" },
+      { text: "C. 制香", answer: "C" },
+      { text: "D. 包粽子", answer: "D" }
+    ],
+    correctAnswer: "B",
+    explanation: "正确答案是B，舞狮在节庆中象征驱邪避凶、带来好运。"
+  }
+],
         animationFrameId: null,
         gravity: 0.5,
         jumpForce: -12,
@@ -390,10 +555,10 @@
           this.score += 10
         }
         
-        // 2秒后自动关闭问题框
+        // 1秒后自动关闭问题框
         setTimeout(() => {
           this.showQuestion = false
-        }, 2000)
+        }, 1000)
       },
       nextLevel() {
         this.currentLevel++
